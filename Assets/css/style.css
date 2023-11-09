@@ -15,11 +15,12 @@ section{
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
-  background-color: cadetblue;
+  background-color: #44b3b0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  border-top: solid 5px white;
 }
 .banner h2{
   font-size: 3em;
@@ -30,9 +31,26 @@ section{
   flex-wrap: wrap;
 }
 .banner h2 span{
-  font-size: 1.5em;
-  font: weight 700px;;
+  font-size: 1em;
+  font: weight 500px;;
+  margin: auto 0;
 }
+.banner h2 img{
+  margin-left: 5%;
+  padding: 5%;
+}
+.banner p{
+  font-size: 1.5em;
+  font: weight 500px;;
+  color: white;
+  padding: 20%;
+}
+.banner p span{
+  font-size: 1.5em;
+  font: weight 500px;;
+  color: white;
+}
+
 .banner h3{
   font-size: 1.5em;
   color: white;
@@ -123,13 +141,11 @@ header ul li a{
   font-weight: 600;
   font-size: 30px;
 }
-.about{
+.aboutUs{
   padding: 5%;
   justify-content: center;
-}
-.aboutme{
-  justify-content: center;
-  display: flex;
+  color: white;
+  font-size: 24px;
 }
 .content{
   display: flex;
