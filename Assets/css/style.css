@@ -1,0 +1,220 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+section{
+  padding: 10px;
+}
+.banner
+{
+  position: relative;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.banner h2{
+  font-size: 3em;
+  color: white;
+  font-weight: 500;
+  line-height: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+}
+.banner h2 span{
+  font-size: 1.5em;
+  font: weight 700px;;
+}
+.banner h3{
+  font-size: 1.5em;
+  color: white;
+  font-weight: 500;
+}
+.btn{
+  position: relative;
+  background: pink;
+  display: inline-block;
+  color:white;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.btn:hover{
+  background: rgb(49, 198, 211);
+}
+
+
+header{
+  position: fixed;
+  flex-wrap: wrap;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5% 10%;
+  z-index: 1000;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+header .logo
+{
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+  position: relative;
+}
+header.sticky .logo{
+  color: black;
+}
+header.sticky{
+  background: white;
+  padding: 20px 100px;
+}
+header.sticky ul li a{
+  color: black;
+}
+header ul{
+  position: relative;
+  display: flex;
+}
+header ul li{
+  position: center;
+  list-style: none;
+}
+header ul li a{
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+.heading{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+  color:black;
+  display: flex;
+}
+.workheading{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+  color:black;
+}
+.heading h2{
+  font-weight: 600;
+  font-size: 30px;
+}
+.about{
+  padding: 5%;
+  justify-content: center;
+}
+.aboutme{
+  justify-content: center;
+  display: flex;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+.contentBx{
+  padding-right: 10%;
+}
+.contentBx h3{
+  font-size: 20px;
+  margin-bottom: 5%;
+  background: darkslategray;
+  color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.textBx h2{
+  margin-left: 5px;
+  margin-bottom: 2%;
+}
+.wordstuff{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: white;
+  margin-bottom: 2%;
+}
+.w50{
+  background: darkslategray;
+  color: white;
+  font-weight: 600;
+  margin-right: 20px;
+  border-radius: 10px 10px 10px 10px;
+  padding: 40px;
+}
+img{
+  max-width:49%;
+  border-radius: 14px;
+}
+.work{
+  background: rgb(244, 231, 183);
+}
+.work .content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1 0 300px;
+}
+.work .content .servicesBx{
+  padding: 40px 20px;
+  background: lightpink;
+  color: maroon;
+ flex: 1 0 300px;
+  margin: 20px;
+  text-align: center;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.work .content .servicesBx:hover{
+  background:paleturquoise;
+}
+.contact{
+  background:rgb(255, 244, 203);
+  max-height: 10%;
+}
+.contactInfo
+{
+  min-width: 40%;
+}
+.contactInfoBx{
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 540px) {
+  .view {
+      width: 400px;
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .view {
+      width: 600px;
+  }
+}
