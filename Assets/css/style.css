@@ -35,9 +35,9 @@ section{
   font: weight 500px;;
   margin: auto 0;
 }
-.banner h2 img{
-  margin-left: 5%;
+.banner img{
   padding: 5%;
+  width: 60%;
 }
 .banner p{
   font-size: 1.5em;
@@ -74,7 +74,10 @@ section{
 .btn:hover{
   background: rgb(49, 198, 211);
 }
-
+.center-image {
+  display: block;
+  margin: 0 auto;
+}
 
 header{
   position: fixed;
@@ -182,10 +185,6 @@ header ul li a{
   margin-right: 20px;
   border-radius: 10px 10px 10px 10px;
   padding: 40px;
-}
-img{
-  max-width:49%;
-  border-radius: 14px;
 }
 .work{
   background: rgb(244, 231, 183);
