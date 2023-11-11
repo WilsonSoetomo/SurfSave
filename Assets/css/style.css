@@ -38,7 +38,29 @@ section{
 .banner img{
   padding: 5%;
   width: 60%;
+  border-radius: 20%;
 }
+.banner img:hover{
+  animation: rotateFun 4s;
+}
+
+@keyframes rotateFun
+{
+  0%{
+    transform: rotate(0deg);
+  }
+  33%{
+    transform: rotate(25deg);
+  }
+  66%{
+    transform: rotate(-25deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+
+}
+
 .banner p{
   font-size: 1.5em;
   font: weight 500px;;
