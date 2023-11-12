@@ -221,7 +221,7 @@ header ul li a{
   padding: 40px 20px;
   background: lightpink;
   color: maroon;
- flex: 1 0 300px;
+  flex: 1 0 300px;
   margin: 20px;
   text-align: center;
   transition: 0.5s;
@@ -231,8 +231,9 @@ header ul li a{
   background:paleturquoise;
 }
 .contact{
-  background:rgb(255, 244, 203);
+  background:rgb(7, 62, 99);
   max-height: 10%;
+  color: white;
 }
 .contactInfo
 {
