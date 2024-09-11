@@ -6,8 +6,7 @@ Saving the planet one wave at a time.
 
 ### Members: 
 Wilson Soetomo (Co- Founder)
-Justin Park (Co-Founder)
-Willie Wu (Member)
+Willie Wu (Operations Director)
 Sean Liao (Member)
 Jeffrey Liu (Member)
 
